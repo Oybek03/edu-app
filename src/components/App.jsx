@@ -10,12 +10,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {/* <Home /> */}
-        {/* <Education /> */}
-        {/* <Feature />*/}
-        {/* <Courses /> */}
-        {/* <Teachers /> */}
-        {/* <Programs /> */}
+        <Home />
+        <Education />
+        <Feature />
+        <Courses />
+        <Teachers />
+        <Programs />
         <Client />
       </div>
     );

@@ -9,6 +9,8 @@
 .big-div {
   height: 97vh;
   background-image: url(https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home-nav {
   display: flex;
@@ -203,7 +205,7 @@ li a {
 /* Client component  */
 .client-div {
   width: 50%;
-  margin-left: 300px;
+  margin-left: 350px;
   margin-top: 100px;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
@@ -226,13 +228,13 @@ li a {
 .cleint-big-div h1 {
   text-align: center;
 }
-.top-titles{
+.top-titles {
   width: 40%;
   margin-top: 50px;
   margin-left: 360px;
   text-align: center;
 }
-.top-title{
+.top-title {
   margin-top: 30px;
 }
 /* Client component end */
