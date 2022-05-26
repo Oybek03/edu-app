@@ -3,6 +3,7 @@ import Courses from "./Courses";
 import Education from "./Education";
 import Feature from "./Feature";
 import Home from "./Home";
+import Teachers from "./Teachers";
 
 class App extends React.Component {
   render() {
@@ -11,7 +12,8 @@ class App extends React.Component {
         {/* <Home /> */}
         {/* <Education /> */}
         {/* <Feature />*/}
-        <Courses />
+        {/* <Courses /> */}
+        <Teachers />
       </div>
     );
   }
