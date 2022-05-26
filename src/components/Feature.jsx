@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 const Feature = () => {
   return (
-    <div>
+    <div className="back-fea">
       <h1>Feauters</h1>
 
       <div className="fea-div">

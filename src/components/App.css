@@ -85,8 +85,12 @@ li a {
 /* Edu section end */
 
 /* Feature section  */
-.fea-div{
+.back-fea{
   background-color: #f0f0f0;
+text-align: center;
+}
+.fea-div{
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
