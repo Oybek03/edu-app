@@ -118,5 +118,28 @@ li a {
 /* Feature section  */
 
 /* Courses component  */
-
+.course-boxes {
+  margin-left: 33px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.courses-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.card-1 {
+  background-color: #f0f0f0;
+  width: 373px;
+  height: 560px;
+  line-height: 2;
+}
+.card-1 h2 {
+  font-weight: 900;
+}
+.card-1 button{
+  background-color: rgb(0, 255, 0);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
 /* Courses component end */
