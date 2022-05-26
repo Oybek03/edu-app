@@ -5,6 +5,7 @@ import Feature from "./Feature";
 import Home from "./Home";
 import Teachers from "./Teachers";
 import Programs from "./Programs";
+import Client from "./Client";
 class App extends React.Component {
   render() {
     return (
@@ -14,7 +15,8 @@ class App extends React.Component {
         {/* <Feature />*/}
         {/* <Courses /> */}
         {/* <Teachers /> */}
-        <Programs />
+        {/* <Programs /> */}
+        <Client />
       </div>
     );
   }
