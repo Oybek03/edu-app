@@ -266,4 +266,15 @@ form textarea {
   height: 40px;
   margin-left: 20px;
 }
+.right-section{
+  width: 500px;
+  
+}
+iframe{
+  width: 100%;
+}
+.contact-sections{
+  display: flex;
+  justify-content: space-around;
+}
 /* Contact component end */
