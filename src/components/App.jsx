@@ -1,4 +1,5 @@
 import React from "react";
+import Courses from "./Courses";
 import Education from "./Education";
 import Feature from "./Feature";
 import Home from "./Home";
@@ -9,7 +10,8 @@ class App extends React.Component {
       <div>
         {/* <Home /> */}
         {/* <Education /> */}
-        <Feature />
+        {/* <Feature />*/}
+        <Courses />
       </div>
     );
   }
