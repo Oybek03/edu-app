@@ -85,16 +85,19 @@ li a {
 /* Edu section end */
 
 /* Feature section  */
-.back-fea{
+.back-fea {
   background-color: #f0f0f0;
-text-align: center;
+  text-align: center;
+  overflow-x: hidden;
 }
-.fea-div{
-  width: 100vw;
+.fea-div {
+  width: 95vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 95px;
+  margin-top: 25px;
 }
-.card-fea{
+.card-fea {
   width: 300px;
   height: 350px;
   display: flex;
@@ -104,12 +107,12 @@ text-align: center;
   justify-content: center;
 }
 .card-image {
-background-color: rgb(255, 255, 255);
-width: 150px;
-height: 150px;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* Feature section  */
