@@ -4,7 +4,7 @@ import Education from "./Education";
 import Feature from "./Feature";
 import Home from "./Home";
 import Teachers from "./Teachers";
-
+import Programs from "./Programs";
 class App extends React.Component {
   render() {
     return (
@@ -13,7 +13,8 @@ class App extends React.Component {
         {/* <Education /> */}
         {/* <Feature />*/}
         {/* <Courses /> */}
-        <Teachers />
+        {/* <Teachers /> */}
+        <Programs />
       </div>
     );
   }
