@@ -238,3 +238,32 @@ li a {
   margin-top: 30px;
 }
 /* Client component end */
+
+/* Contact component */
+form {
+  margin-top: 50px;
+}
+form input {
+  display: block;
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+form textarea {
+  margin-left: 20px;
+  padding-left: 10px;
+  margin-top: 15px;
+  display: block;
+  margin-bottom: 25px;
+}
+.send-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+}
+/* Contact component end */

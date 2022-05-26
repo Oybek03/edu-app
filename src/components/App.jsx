@@ -6,6 +6,7 @@ import Home from "./Home";
 import Teachers from "./Teachers";
 import Programs from "./Programs";
 import Client from "./Client";
+import Contact from "./Contact";
 class App extends React.Component {
   render() {
     return (
@@ -17,6 +18,7 @@ class App extends React.Component {
         <Teachers />
         <Programs />
         <Client />
+        <Contact />
       </div>
     );
   }
