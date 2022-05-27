@@ -7,6 +7,7 @@ import Teachers from "./Teachers";
 import Programs from "./Programs";
 import Client from "./Client";
 import Contact from "./Contact";
+import Footer from "./Footer";
 class App extends React.Component {
   render() {
     return (
@@ -19,6 +20,7 @@ class App extends React.Component {
         <Programs />
         <Client />
         <Contact />
+        <Footer />
       </div>
     );
   }

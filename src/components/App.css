@@ -278,3 +278,12 @@ iframe{
   justify-content: space-around;
 }
 /* Contact component end */
+
+/* Footer compnent */
+.footer-ul{
+background-color: black;
+width: 97%;
+margin-top: 50px;
+padding: 20px;
+}
+/* Footer compnent */

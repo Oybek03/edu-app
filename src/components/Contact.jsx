@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <h1 style={{ textAlign: "center", marginBottom: "50px" }}>Contact</h1>
       <div className="contact-sections">
         <div className="left-section">
           <form>
