@@ -287,3 +287,29 @@ margin-top: 50px;
 padding: 20px;
 }
 /* Footer compnent */
+
+/* Responsive start */
+
+@media only screen and (max-width: 600px) {
+  body {
+   width: 100%;
+  }
+  .big-div{
+    width: 1200px;
+ 
+  }
+  .home-aside h1{
+    font-size: 90px;
+  }
+  .home-aside p{
+    font-size: 44px;
+  }
+  .home-aside button{
+    width: 300px;
+    height: 80px;
+  font-size: 30px;
+  }
+
+
+}
+/* Responsive start */
