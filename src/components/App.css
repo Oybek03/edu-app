@@ -292,6 +292,7 @@ iframe {
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
+    margin-left: 50px;
   }
   .navigation {
     display: none;
@@ -393,10 +394,26 @@ iframe {
     margin-left: 150px;
     width: 1000px;
   }
-  .teach-title{
+  .teach-title {
     font-size: 54px;
     margin-left: 400px;
     width: 500px;
+  }
+  .cleint-big-div {
+    width: 1200px;
+  }
+  .cleint-big-div h2 {
+    font-size: 44px;
+  }
+  .cleint-big-div p {
+    font-size: 28px;
+  }
+  .contact-sections {
+    width: 1200px;
+    margin-left: 59px;
+  }
+  .footer-ul {
+    width: 1200px;
   }
 }
 /* Responsive start */
