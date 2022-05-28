@@ -293,6 +293,10 @@ iframe {
   body {
     width: 100%;
   }
+  .navigation{
+    display: none;
+
+  }
   .big-div {
     width: 1200px;
   }
@@ -318,7 +322,7 @@ iframe {
   .edu-right-section h2 {
     font-size: 44px;
   }
-  .edu-right-section p{
+  .edu-right-section p {
     font-size: 24px;
   }
   .edu-left-section {
@@ -326,8 +330,35 @@ iframe {
   }
 
   .edu-left-section img {
- margin-top: 15px;
+    margin-top: 15px;
     height: 390px;
+  }
+  .back-fea{
+    width: 1200px;
+  }
+  .back-fea h1{
+    font-size: 50px;
+  }
+  .back-fea h2{
+    font-size: 30px;
+  }
+  .back-fea p{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .fea-div{
+    grid-template-columns: 1fr;
+  margin-left: 400px;
+  }
+  .card-image{
+    width: 200px;
+    height: 200px;
+  }
+  .card-fea{
+    width: 400px;
+  }
+  .card-image img{
+    width: 45%;
   }
 }
 /* Responsive start */
