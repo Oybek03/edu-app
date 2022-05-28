@@ -290,9 +290,11 @@ iframe {
 /* Responsive start */
 
 @media only screen and (max-width: 600px) {
+
   body {
     width: 100%;
-    margin-left: 50px;
+
+    /* margin-left: 50px; */
   }
   .navigation {
     display: none;
@@ -400,7 +402,7 @@ iframe {
     width: 500px;
   }
   .cleint-big-div {
-    width: 1200px;
+    width: 1100px;
   }
   .cleint-big-div h2 {
     font-size: 44px;
@@ -413,7 +415,7 @@ iframe {
     margin-left: 59px;
   }
   .footer-ul {
-    width: 1200px;
+    width: 1100px;
   }
 }
 /* Responsive start */
