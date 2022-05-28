@@ -293,9 +293,8 @@ iframe {
   body {
     width: 100%;
   }
-  .navigation{
+  .navigation {
     display: none;
-
   }
   .big-div {
     width: 1200px;
@@ -333,32 +332,62 @@ iframe {
     margin-top: 15px;
     height: 390px;
   }
-  .back-fea{
+  .back-fea {
     width: 1200px;
   }
-  .back-fea h1{
+  .back-fea h1 {
     font-size: 50px;
   }
-  .back-fea h2{
+  .back-fea h2 {
     font-size: 30px;
   }
-  .back-fea p{
+  .back-fea p {
     font-size: 18px;
     margin-bottom: 10px;
   }
-  .fea-div{
+  .fea-div {
     grid-template-columns: 1fr;
-  margin-left: 400px;
+    margin-left: 400px;
   }
-  .card-image{
+  .card-image {
     width: 200px;
     height: 200px;
   }
-  .card-fea{
+  .card-fea {
     width: 400px;
   }
-  .card-image img{
+  .card-image img {
     width: 45%;
+  }
+  .course-boxes {
+    grid-template-columns: 1fr;
+  }
+  .courses-title{
+    font-size: 54px;
+    margin-left: 500px;
+  }
+  .card-1 {
+    margin-left: 90px;
+    width: 1000px;
+    height: 1300px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .card-1 img {
+    width: 1000px;
+  }
+  .card-1 h2 {
+    font-size: 48px;
+  }
+  .card-1 p {
+    font-size: 35px;
+  }
+  .card-1 button {
+    width: 250px;
+    /* height: 50px; */
+    font-size: 40px;
+    padding: 10px 15px;
   }
 }
 /* Responsive start */
