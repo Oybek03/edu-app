@@ -266,25 +266,24 @@ form textarea {
   height: 40px;
   margin-left: 20px;
 }
-.right-section{
+.right-section {
   width: 500px;
-  
 }
-iframe{
+iframe {
   width: 100%;
 }
-.contact-sections{
+.contact-sections {
   display: flex;
   justify-content: space-around;
 }
 /* Contact component end */
 
 /* Footer compnent */
-.footer-ul{
-background-color: black;
-width: 97%;
-margin-top: 50px;
-padding: 20px;
+.footer-ul {
+  background-color: black;
+  width: 97%;
+  margin-top: 50px;
+  padding: 20px;
 }
 /* Footer compnent */
 
@@ -292,24 +291,43 @@ padding: 20px;
 
 @media only screen and (max-width: 600px) {
   body {
-   width: 100%;
+    width: 100%;
   }
-  .big-div{
+  .big-div {
     width: 1200px;
- 
   }
-  .home-aside h1{
+  .home-aside h1 {
     font-size: 90px;
   }
-  .home-aside p{
+  .home-aside p {
     font-size: 44px;
   }
-  .home-aside button{
+  .home-aside button {
     width: 300px;
     height: 80px;
-  font-size: 30px;
+    font-size: 30px;
+  }
+  .edu-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+  }
+  .edu-right-section {
+    width: 600px;
+  }
+  .edu-right-section h2 {
+    font-size: 44px;
+  }
+  .edu-right-section p{
+    font-size: 24px;
+  }
+  .edu-left-section {
+    width: 550px;
   }
 
-
+  .edu-left-section img {
+ margin-top: 15px;
+    height: 390px;
+  }
 }
 /* Responsive start */
