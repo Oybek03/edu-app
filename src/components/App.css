@@ -362,7 +362,7 @@ iframe {
   .course-boxes {
     grid-template-columns: 1fr;
   }
-  .courses-title{
+  .courses-title {
     font-size: 54px;
     margin-left: 500px;
   }
@@ -388,6 +388,15 @@ iframe {
     /* height: 50px; */
     font-size: 40px;
     padding: 10px 15px;
+  }
+  .teach-div {
+    margin-left: 150px;
+    width: 1000px;
+  }
+  .teach-title{
+    font-size: 54px;
+    margin-left: 400px;
+    width: 500px;
   }
 }
 /* Responsive start */
